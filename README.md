@@ -6,5 +6,6 @@ pages in addition there are various personal photos;
 -About Me
 -Portfolio
 
-Credit to a tutorial from Kevin Powell in creating popout image on the
+Credit to a tutorial from Kevin Powell on youtube for help creating popout image on the
 home page.
+Credit to Frederic R. (https://codepen.io/fredericrous) on codepen for help creating the photo carousel on the about page.
