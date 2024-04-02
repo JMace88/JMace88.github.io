@@ -5,6 +5,7 @@ pages in addition there are various personal photos;
 -Home Page
 -About Me
 -Portfolio
+-Contact Me
 
 Credit to a tutorial from Kevin Powell on youtube for help creating popout image on the
 home page.
