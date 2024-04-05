@@ -13,22 +13,22 @@ function Gallery() {
     <div className='slider-container'>
       <Slider {...settings}>
         <div className='photo-div'>
-          <img src='drwhocast.jpg' alt='' />
+          <img src='drwhocast.JPG' alt='Picture of me and my partner with cast members from Doctor Who.' />
         </div>
         <div className='photo-div'>
-          <img src='withfelicia.jpg' alt='' />
+          <img src='withfelicia.jpg' alt='Picture of me with Felicia Day.' />
         </div>
         <div className='photo-div'>
-          <img src='withtakei.jpg' alt='' />
+          <img src='withtakei.jpg' alt='Picture of my an my partner with George Takei' />
         </div>
         <div className='photo-div'>
-          <img src='withgoldblum.jpg' alt='' />
+          <img src='withgoldblum.jpg' alt='Picture of me and my partner with Jeff Goldblum' />
         </div>
         <div className='photo-div'>
-          <img src='withamya.jpg' alt='' />
+          <img src='withamya.JPG' alt='Picture of me with Amy Acker' />
         </div>
         <div className='photo-div'>
-          <img src='wthdrwo2.jpg' alt='' />
+          <img src='wthdrwo2.JPG' alt='Picture of me and my partner with cast members from Doctor Who.' />
         </div>
       </Slider>
     </div>
