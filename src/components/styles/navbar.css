@@ -1,0 +1,74 @@
+header {
+  border: var(--borderWidth) solid var(--almostBlackTransparent);
+  border-bottom-left-radius: var(--standardRadius);
+  border-bottom-right-radius: var(--standardRadius);
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  height: var(--headheight);
+  width: 99%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: var(--glass);
+  box-shadow: var(--glass-glow);
+}
+.logo {
+  display: flex;
+  place-items: center;
+  background-color: var(--blueGray);
+  scale: 90%;
+  border-radius: 50%;
+  border: 1px solid var(--almostBlack);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+.logo-text {
+  scale: 90%;
+}
+.logo > a:link {
+  text-decoration: none;
+  color: var(--taupe);
+}
+.logo > a:visited {
+  color: var(--taupe);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav > a {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+}
+.nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: var(--standardRadius);
+  width: 6rem;
+  height: fit-content;
+}
+.nav-button {
+  font-family: 'Dekko';
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--taupe);
+  color: var(--blueGray);
+  border-radius: var(--standardRadius);
+  border: 0.0625rem solid var(--deepPurp);
+  width: 6rem;
+  height: fit-content;
+  cursor: pointer;
+  margin-right: 0.75rem;
+}
+.nav-button a:link {
+  text-decoration: none;
+}
+.nav-button a:visited {
+  color: var(--blueGray);
+}

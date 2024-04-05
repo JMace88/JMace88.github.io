@@ -1,0 +1,66 @@
+main > h1 {
+  position: relative;
+  font-size: 4rem;
+  border: 0.25rem solid #15151553;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  background-color: #301b3fd8;
+  max-width: fit-content;
+  margin: auto;
+  bottom: 25rem;
+  left: 20vw;
+}
+h2 {
+  border-radius: 0.75rem;
+  background-color: #301b3fd8;
+  padding: 0.75rem;
+  min-width: fit-content;
+  max-height: 7rem;
+  text-align: center;
+  font-size: xx-large;
+  margin: 0.75rem;
+  grid-column: 1 / span 2;
+  align-self: center;
+  font-weight: bold;
+}
+.card-portfolio {
+  display: grid;
+  border: 0.025rem solid #301b3f;
+  border-radius: 0.75rem;
+  margin: 1rem;
+  padding: 1rem;
+  background: var(--glass);
+  box-shadow: var(--glass-glow);
+  z-index: 0;
+  place-items: center;
+  align-items: stretch;
+  grid-template-columns: 1fr 1fr;
+}
+.card-portfolio > a > img {
+  position: relative;
+  margin: 1rem;
+  max-width: 90%;
+  border-radius: 0.75rem;
+  z-index: 0;
+  border: 0.025rem solid #301b3f;
+  object-fit: center;
+}
+.card-portfolio > img {
+  position: relative;
+  margin: 1rem;
+  max-width: 90%;
+  border-radius: 0.75rem;
+  z-index: 0;
+  border: 0.025rem solid #301b3f;
+  object-fit: cover;
+}
+
+p {
+  font-size: 190%;
+  background-color: #301b3fd8;
+  margin: 1rem;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  border: 0.025rem solid #301b3f;
+  overflow: auto;
+}

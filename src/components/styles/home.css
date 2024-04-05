@@ -1,0 +1,77 @@
+.person {
+  top: 5rem;
+  position: relative;
+  max-width: 30rem;
+  margin-inline: auto;
+  --transform-speed: 250ms;
+}
+.person__container {
+  aspect-ratio: 1/1.35;
+  display: grid;
+  align-items: end;
+  border-radius: 0 0 100vw 100vw;
+  overflow: hidden;
+  transition: transform var(--transform-speed) ease-in-out;
+}
+.person__container:hover .person__img {
+  transform: scale(1.1);
+}
+.person__circle {
+  position: absolute;
+  inset: auto 0 0;
+  background-color: #15151500;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  margin-inline: auto;
+  object-fit: cover;
+  scale: 111.5%;
+}
+.person__img {
+  position: relative;
+  left: 0.2rem;
+  z-index: 2;
+  transform: var(--transform-speed) ease-in-out;
+}
+/* front page popout end */
+.person > h1 {
+  text-align: center;
+  position: absolute;
+  font-size: 5rem;
+  border: var(--borderWidth) solid var(--almostBlackTransparent);
+  border-radius: var(--standardRadius);
+  padding: 0.5rem;
+  background: var(--glass);
+  backdrop-filter: blur(1px);
+  box-shadow: var(--glass-glow);
+  top: -2rem;
+  left: 5.5rem;
+}
+.yuki {
+  position: relative;
+  font-size: 4rem;
+  border: var(--borderWidth) solid var(--almostBlackTransparent);
+  border-radius: var(--standardRadius);
+  padding: 0.5rem;
+  background: var(--glass);
+  /* backdrop-filter: blur(1px); */
+  box-shadow: var(--glass-glow);
+  max-width: fit-content;
+  margin: auto;
+  bottom: 25rem;
+  left: 20vw;
+}
+
+@media (width <= 700px) {
+  .person > h1 {
+    font-size: 1.5rem;
+    top: 1rem;
+  }
+  .yuki {
+    font-size: 1.5rem;
+    bottom: -2rem;
+  }
+  .person {
+    scale: 90%;
+  }
+}

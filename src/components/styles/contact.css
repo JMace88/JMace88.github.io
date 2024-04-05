@@ -1,0 +1,63 @@
+.card-contact {
+  display: grid;
+  border: 0.025rem solid #301b3f;
+  border-radius: 0.75rem;
+  margin: 1rem;
+  padding: 1rem;
+  background: var(--glass);
+  box-shadow: var(--glass-glow);
+  z-index: 0;
+  place-items: center;
+  align-items: stretch;
+}
+.formbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #301b3fd8;
+  border-radius: 0.75rem;
+  background: #301b3fd8;
+  margin: 1rem;
+  padding: 2rem;
+  align-self: center;
+  align-items: center;
+}
+form {
+  font-size: 2.2rem;
+}
+input {
+  border-radius: 0.75rem;
+  height: 3rem;
+  margin-left: 1rem;
+}
+textarea {
+  height: 10vh;
+  width: 30vh;
+  border-radius: 0.75rem;
+}
+.message-box {
+  display: flex;
+  flex-direction: column;
+}
+.contact-button {
+  font-family: 'Dekko';
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--taupe);
+  color: var(--blueGray);
+  border-radius: var(--standardRadius);
+  border: 0.0625rem solid var(--deepPurp);
+  width: 6rem;
+  height: fit-content;
+  cursor: pointer;
+  margin-right: 0.75rem;
+}
+@media (width <= 570px) {
+  .formbox {
+    scale: 80%;
+  }
+}
+@media (width <= 500px) {
+  .formbox {
+    margin: -2.6rem;
+  }
+}

@@ -1,4 +1,4 @@
-# personal-website-pt1
+# personal_site_react
 This is the personal website of Joshua Mace. It features the following
 pages in addition there are various personal photos;
 
