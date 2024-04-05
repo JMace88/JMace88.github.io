@@ -9,11 +9,11 @@ const Home = () => {
           <div className='person__container'>
             <img
               className='person__circle'
-              src='JMace88.github.io/build/assets/moon-png-44668.png'
+              src='moon-png-44668.png'
             />
             <img
               className='person__img'
-              src='/assets/images/with yuki no background.png'
+              src='withyukinobackground.png'
               alt='picture for home'
             />
           </div>
