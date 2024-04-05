@@ -17,7 +17,7 @@ const AboutMe = () => {
             a new industry with an emphasis on customer service and design.
           </p>
           <img
-            src='/src/assets/images/zgall.jpg'
+            src='zgall.jpg'
             alt='a round table with decor'
           />
         </div>
@@ -35,7 +35,7 @@ const AboutMe = () => {
             We are huge nerds and love all things Sci-Fi & Fantasy.
           </p>
           <img
-            src='/src/assets/images/mypups.jpg'
+            src='mypups.jpg'
             alt='Two dogs lying head to head'
           />
         </div>

@@ -13,22 +13,22 @@ function Gallery() {
     <div className='slider-container'>
       <Slider {...settings}>
         <div className='photo-div'>
-          <img src='/src/assets/images/drwhocast.jpg' alt='' />
+          <img src='drwhocast.jpg' alt='' />
         </div>
         <div className='photo-div'>
-          <img src='/src/assets/images/withfelicia.jpg' alt='' />
+          <img src='withfelicia.jpg' alt='' />
         </div>
         <div className='photo-div'>
-          <img src='/src/assets/images/withtakei.jpg' alt='' />
+          <img src='withtakei.jpg' alt='' />
         </div>
         <div className='photo-div'>
-          <img src='/src/assets/images/withgoldblum.jpg' alt='' />
+          <img src='withgoldblum.jpg' alt='' />
         </div>
         <div className='photo-div'>
-          <img src='/src/assets/images/withamya.jpg' alt='' />
+          <img src='withamya.jpg' alt='' />
         </div>
         <div className='photo-div'>
-          <img src='/src/assets/images/wthdrwo2.jpg' alt='' />
+          <img src='wthdrwo2.jpg' alt='' />
         </div>
       </Slider>
     </div>

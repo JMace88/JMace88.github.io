@@ -22,7 +22,7 @@ const Portfolio = () => {
               href='https://github.com/JMace88/zoo-problem-workshop'
               alt='a link to The Tiny Zoo reop on GitHub'
             >
-              <img src='/src/assets/images/myzoo.PNG' alt='project 1 pic' />
+              <img src='myzoo.PNG' alt='project 1 pic' />
             </a>
           </div>
 
@@ -44,7 +44,7 @@ const Portfolio = () => {
               alt='a link to the Picasso Workshop on GitHub'
             >
               <img
-                src='/src/assets/images/goldblumproblem.PNG'
+                src='goldblumproblem.PNG'
                 alt='project 2 pic'
               />
             </a>
@@ -65,7 +65,7 @@ const Portfolio = () => {
               href='https://github.com/JMace88/block6_grocery_list'
               alt='a link to Grocery List workshop on GitHub'
             >
-              <img src='/src/assets/images/pantry.PNG' alt='project 3 pic' />
+              <img src='pantry.PNG' alt='project 3 pic' />
             </a>
           </div>
         </article>
