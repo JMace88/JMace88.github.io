@@ -7,7 +7,7 @@ header {
   justify-content: space-between;
   place-items: center;
   height: var(--headheight);
-  width: 99%;
+  width: 99.4%;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -54,7 +54,7 @@ nav > a {
   height: fit-content;
 }
 .nav-button {
-  font-family: 'Dekko';
+  font-family: "Source Sans 3", sans-serif;
   font-size: 1rem;
   font-weight: 600;
   background-color: var(--taupe);

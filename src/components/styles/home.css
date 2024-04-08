@@ -38,24 +38,24 @@
   text-align: center;
   position: absolute;
   font-size: 5rem;
-  border: var(--borderWidth) solid var(--almostBlackTransparent);
-  border-radius: var(--standardRadius);
   padding: 0.5rem;
+  /* border: var(--borderWidth) solid var(--almostBlackTransparent);
+  border-radius: var(--standardRadius);
   background: var(--glass);
   backdrop-filter: blur(1px);
-  box-shadow: var(--glass-glow);
+  box-shadow: var(--glass-glow); */
   top: -2rem;
   left: 5.5rem;
 }
 .yuki {
   position: relative;
   font-size: 4rem;
-  border: var(--borderWidth) solid var(--almostBlackTransparent);
-  border-radius: var(--standardRadius);
   padding: 0.5rem;
+  /* border: var(--borderWidth) solid var(--almostBlackTransparent);
+  border-radius: var(--standardRadius);
   background: var(--glass);
-  /* backdrop-filter: blur(1px); */
-  box-shadow: var(--glass-glow);
+  backdrop-filter: blur(1px);
+  box-shadow: var(--glass-glow); */
   max-width: fit-content;
   margin: auto;
   bottom: 25rem;

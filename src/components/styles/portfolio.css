@@ -1,15 +1,3 @@
-main > h1 {
-  position: relative;
-  font-size: 4rem;
-  border: 0.25rem solid #15151553;
-  border-radius: 0.75rem;
-  padding: 0.5rem;
-  background-color: #301b3fd8;
-  max-width: fit-content;
-  margin: auto;
-  bottom: 25rem;
-  left: 20vw;
-}
 h2 {
   border-radius: 0.75rem;
   background-color: #301b3fd8;
