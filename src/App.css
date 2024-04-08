@@ -27,7 +27,7 @@ body {
   font-family: 'Dekko', cursive;
   font-weight: 400;
   font-style: normal;
-  background-image: url(assets/images/crabnebula.jpg);
+  /* background-image: url(assets/images/crabnebula.jpg); */
   background-size: 100%;
   background-position: center;
   color: var(--taupe);
