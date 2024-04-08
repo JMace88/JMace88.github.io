@@ -7,7 +7,7 @@ header {
   justify-content: space-between;
   place-items: center;
   height: var(--headheight);
-  width: 99.4%;
+  width: 99%;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -37,6 +37,9 @@ header {
 .logo > a:visited {
   color: var(--taupe);
 }
+nav{
+  display: flex;
+}
 .nav-link {
   font-size: 1rem;
   font-weight: 600;
@@ -47,3 +50,22 @@ header {
 
 }
 
+@media (width <= 590px) {
+  .nav-link{
+    margin-right: .25rem;
+  }
+}
+@media (width <= 541px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  header{
+    height: var(--headheight )+ 2rem;
+    width: 96%;
+  }
+  .link-cluster{
+    margin-bottom: .25rem;
+    margin-right: .25rem;
+  }
+}
