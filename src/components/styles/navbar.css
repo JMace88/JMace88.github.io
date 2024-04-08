@@ -24,7 +24,7 @@ header {
   text-decoration: none;
   font-weight: 500;
   padding: 0.5rem;
-  height: 3rem;
+  height: 3.25rem;
   width: 3rem;
 }
 .logo-text {
@@ -37,38 +37,13 @@ header {
 .logo > a:visited {
   color: var(--taupe);
 }
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-nav > a {
-  font-size: 1.5rem;
-  margin-right: 0.75rem;
-}
 .nav-link {
   font-size: 1rem;
   font-weight: 600;
   border-radius: var(--standardRadius);
-  width: 6rem;
+  width: fit-content;
   height: fit-content;
+  margin-right: 1rem;
+
 }
-.nav-button {
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  background-color: var(--taupe);
-  color: var(--blueGray);
-  border-radius: var(--standardRadius);
-  border: 0.0625rem solid var(--deepPurp);
-  width: 6rem;
-  height: fit-content;
-  cursor: pointer;
-  margin-right: 0.75rem;
-}
-.nav-button a:link {
-  text-decoration: none;
-}
-.nav-button a:visited {
-  color: var(--blueGray);
-}
+

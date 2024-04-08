@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <>
       <main>
-        <div className='card-about'>
+        <div className='card'>
           <h2>My Career So Far</h2>
           <p>
             After 15 years in retail management, most recently with{' '}
@@ -21,7 +21,7 @@ const AboutMe = () => {
             alt='a round table with decor'
           />
         </div>
-        <div className='card-about'>
+        <div className='card'>
           <h2>My Story</h2>
           <p>
             I was born in Oklahoma to a military family. We travelled around for

@@ -5,7 +5,7 @@ const Portfolio = () => {
     <>
       <main>
         <article>
-          <div className='card-portfolio'>
+          <div className='card'>
             <h2>The Tiny Zoo</h2>
 
             <p>
@@ -26,7 +26,7 @@ const Portfolio = () => {
             </a>
           </div>
 
-          <div className='card-portfolio'>
+          <div className='card'>
             <h2>The "Goldblum" Problem</h2>
 
             <p>
@@ -50,7 +50,7 @@ const Portfolio = () => {
             </a>
           </div>
 
-          <div className='card-portfolio'>
+          <div className='card'>
             <h2>Project Pantry</h2>
             <p>
               Project Pantry had an objective of sorting a grocery list into
