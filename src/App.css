@@ -34,7 +34,7 @@ body {
   color: var(--deepPurp);
   background: linear-gradient(
     var(--almostWhite),
-    var(--deepPurpTransparent)
+    var(--blueGrayTransparent)
     /* var(--blueGray) */
   );
 }
