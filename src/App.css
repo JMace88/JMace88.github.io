@@ -5,16 +5,20 @@
   --almostBlack: #151515;
   --almostBlackTransparent: #15151555;
   --deepPurp: #301b3f;
-  --deepPurpTransparent: #301b3f32;
+  --deepPurpTransparent: #a474c741;
   --blueGray: #3c415c;
-  --blueGrayTransparent: #5768c932;
+  --blueGrayTransparent: #5768c950;
   --taupe: #b4a5a5;
-  --almostWhite: rgb(250, 250, 250);
+  --almostWhite: rgb(226, 225, 246);
   --glass-glow: 0 4px 30px rgba(0, 0, 0, 0.2),
     0 0 20px rgba(255, 255, 255, 0.194);
   --glass: linear-gradient(
     var(--blueGrayTransparent),
     var(--deepPurpTransparent)
+  );
+  --glassInvert: linear-gradient(
+    var(--deepPurpTransparent),
+    var(--blueGrayTransparent)
   );
 }
 * {

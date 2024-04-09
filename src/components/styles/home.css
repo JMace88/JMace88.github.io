@@ -45,6 +45,8 @@
   transform: var(--transform-speed) ease-in-out;
 }
 .yuki {
+  color: var(--deepPurp);
+  text-shadow: 1px 1px 5px white;
   position: relative;
   font-size: 4rem;
   border-radius: var(--standardRadius);

@@ -11,8 +11,8 @@ header {
   position: fixed;
   top: 0;
   z-index: 1;
-  background: var(--glass);
-  box-shadow: var(--glass-glow);
+  background: var(--glassInvert);
+  /* box-shadow: var(--glass-glow); */
 }
 .logo {
   display: flex;
