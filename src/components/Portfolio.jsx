@@ -21,6 +21,7 @@ const Portfolio = () => {
             <a
               href='https://github.com/JMace88/zoo-problem-workshop'
               alt='a link to The Tiny Zoo reop on GitHub'
+              title='View the GitHub repo'
               target='_blank'
             >
               <img src='myzoo.PNG' alt='project 1 pic' />
@@ -43,6 +44,7 @@ const Portfolio = () => {
             <a
               href='https://github.com/JMace88/picasso-workshop'
               alt='a link to the Picasso Workshop on GitHub'
+              title='View the GitHub repo'
               target='_blank'
             >
               <img
@@ -66,6 +68,7 @@ const Portfolio = () => {
             <a
               href='https://github.com/JMace88/block6_grocery_list'
               alt='a link to Grocery List workshop on GitHub'
+              title='View the GitHub repo'
               target='_blank'
             >
               <img src='pantry.PNG' alt='project 3 pic' />

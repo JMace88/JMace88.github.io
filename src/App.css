@@ -48,6 +48,10 @@ main {
   margin-left: 10vw;
   margin-right: 10vw;
 }
+a.title{
+  background-color: red;
+  border-radius: var(--standardRadius);
+}
 h2 {
   border-radius: 0.75rem;
   /* background-color: #301b3fd8; */
