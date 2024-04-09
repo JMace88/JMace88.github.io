@@ -17,18 +17,20 @@ const NavBar = () => {
         </h2>
       </div>
       <nav>
+        <div className='link-cluster'>
         <Link className='nav-link' to='/'>
           <button className='nav-button'>Home</button>
         </Link>
         <Link className='nav-link' to='/about'>
           <button className='nav-button'>About Me</button>
-        </Link>
+        </Link></div>
+        <div className='link-cluster'>
         <Link className='nav-link' to='/portfolio'>
-          <button className='nav-button'>My Portfolio</button>
+          <button className='nav-button'>Portfolio</button>
         </Link>
         <Link className='nav-link' to='/contact'>
           <button className='nav-button'>Contact Me</button>
-        </Link>
+        </Link></div>
       </nav>
     </header>
   );

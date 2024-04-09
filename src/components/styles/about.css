@@ -1,58 +1,14 @@
-main > h1 {
-  position: relative;
-  font-size: 4rem;
-  border: 0.25rem solid #15151553;
-  border-radius: 0.75rem;
-  padding: 0.5rem;
-  background-color: #301b3fd8;
-  max-width: fit-content;
-  margin: auto;
-  bottom: 25rem;
-  left: 20vw;
+.text-link{
+  color: var(--deepPurp);
+  text-decoration: none;
+  font-weight: 500;
 }
-h2 {
-  border-radius: 0.75rem;
-  background-color: #301b3fd8;
-  padding: 0.75rem;
-  min-width: fit-content;
-  max-height: 7rem;
-  text-align: center;
-  font-size: xx-large;
-  margin: 0.75rem;
-  grid-column: 1 / span 2;
-  align-self: center;
-  font-weight: bold;
+.text-link:after{
+  color: var(--deepPurp);
 }
-
-.card-about {
-  display: grid;
-  border: 0.025rem solid #301b3f;
-  border-radius: 0.75rem;
-  margin: 1rem;
-  padding: 1rem;
-  background: var(--glass);
-  box-shadow: var(--glass-glow);
-  z-index: 0;
-  place-items: center;
-  align-items: stretch;
-}
-.card-about > img {
-  position: relative;
-  margin: 1rem;
-  max-width: 90%;
-  border-radius: 0.75rem;
-  z-index: 0;
-  border: 0.025rem solid #301b3f;
-  object-fit: cover;
-}
-p {
-  font-size: 190%;
-  background-color: #301b3fd8;
-  margin: 1rem;
-  border-radius: 0.75rem;
-  padding: 1rem;
-  border: 0.025rem solid #301b3f;
-  overflow: auto;
+.nerd-cred{
+  margin: 0;
+  padding: 0;
 }
 .slick-slide > div {
   display: grid;
@@ -69,22 +25,23 @@ p {
   margin-bottom: 1rem;
 }
 .carousel {
-  border: 0.025rem solid #301b3f;
+  /* border: 0.025rem solid #301b3f; */
   border-radius: 0.75rem;
   margin: 1rem;
   padding: 1rem;
   background: var(--glass);
-  box-shadow: var(--glass-glow);
+  text-align: center;
+  /* box-shadow: var(--glass-glow); */
 }
 .carousel > h2 {
   margin: auto;
   max-width: fit-content;
 }
-@media (width <= 700px) {
-  .card-about {
+@media (width <= 930px) {
+  .card {
     grid-template-columns: 1fr;
   }
-  .card-about > h2 {
+  .card > h2 {
     grid-column: 1;
   }
   img {

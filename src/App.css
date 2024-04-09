@@ -1,18 +1,22 @@
 :root {
-  --headheight: 3.5rem;
+  --headheight: 3.6rem;
   --borderWidth: 0.1rem;
   --standardRadius: 0.75rem;
   --almostBlack: #151515;
   --almostBlackTransparent: #15151555;
   --deepPurp: #301b3f;
-  --deepPurpTransparent: #301b3f32;
+  --deepPurpTransparent: #a474c741;
   --blueGray: #3c415c;
-  --blueGrayTransparent: #5768c932;
+  --blueGrayTransparent: #5768c950;
   --taupe: #b4a5a5;
+  --almostWhite: rgb(226, 225, 246);
   --glass-glow: 0 4px 30px rgba(0, 0, 0, 0.2),
     0 0 20px rgba(255, 255, 255, 0.194);
   --glass: linear-gradient(
-    45deg,
+    var(--blueGrayTransparent),
+    var(--deepPurpTransparent)
+  );
+  --glassInvert: linear-gradient(
     var(--deepPurpTransparent),
     var(--blueGrayTransparent)
   );
@@ -21,16 +25,22 @@
   box-sizing: border-box;
 }
 body {
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   border: 0;
   padding: 0;
-  font-family: 'Dekko', cursive;
-  font-weight: 400;
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
-  background-image: url(assets/images/crabnebula.jpg);
-  background-size: 100%;
-  background-position: center;
-  color: var(--taupe);
+  /* background-image: url(assets/images/crabnebula.jpg); */
+  /* background-size: 100%;
+  background-position: center; */
+  color: var(--deepPurp);
+  background: linear-gradient(
+    var(--almostWhite),
+    var(--blueGrayTransparent)
+    /* var(--blueGray) */
+  );
 }
 main {
   margin-top: 3.75rem;
@@ -38,6 +48,136 @@ main {
   margin-left: 10vw;
   margin-right: 10vw;
 }
+h2 {
+  border-radius: 0.75rem;
+  /* background-color: #301b3fd8; */
+  padding: 0.75rem;
+  min-width: fit-content;
+  max-height: 7rem;
+  text-align: center;
+  font-size: xx-large;
+  margin: 0.75rem;
+  grid-column: 1 / span 2;
+  align-self: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 190%;
+  /* background-color: #301b3fd8; */
+  margin: 1rem;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  /* border: 0.025rem solid #301b3f; */
+  overflow: auto;
+}
+.card {
+  display: grid;
+  /* border: 0.025rem solid #301b3f; */
+  border-radius: 0.75rem;
+  margin: 1rem;
+  padding: 1rem;
+  background: var(--glass);
+  /* box-shadow: var(--glass-glow); */
+  z-index: 0;
+  place-items: center;
+  align-items: stretch;
+  grid-template-columns: 1fr 1fr;
+}
+.card > a > img {
+  position: relative;
+  margin: 1rem;
+  max-width: 90%;
+  border-radius: 0.75rem;
+  z-index: 0;
+  border: 0.025rem solid #301b3f;
+  object-fit: center;
+}
+.card > img {
+  position: relative;
+  margin: 1rem;
+  max-width: 90%;
+  border-radius: 0.75rem;
+  z-index: 0;
+  border: 0.025rem solid #301b3f;
+  object-fit: cover;
+}
+button {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  /* padding: 0.6em 2em; */
+  border: none;
+  border-radius: var(--standardRadius);
+  outline: none;
+  width: 7rem;
+  height: 2rem;
+  cursor: pointer;
+  /* margin-right: 0.75rem; */
+  color: var(--deepPurp);
+  background: var(--taupe);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover:before {
+  content: '';
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: var(--standardRadius);
+  /* color: var(--taupe); */
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+button:hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--taupe);
+  color: var(--taupe);
+  left: 0;
+  top: 0;
+  border-radius: var(--standardRadius);
+}
+
 @media (width <= 700px) {
   body {
     background-size: 200%;
