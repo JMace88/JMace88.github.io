@@ -11,6 +11,7 @@ const NavBar = () => {
             className='logo-text'
             href='https://github.com/JMace88'
             title='My GitHub Profile'
+            target='_blank'
           >
             JM
           </a>

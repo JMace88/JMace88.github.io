@@ -15,12 +15,12 @@ const AboutMe = () => {
               Z Gallerie
             </a>{' '}
             &{' '}
-            <a className='text-link' href='https://www.sephora.com'>
+            <a className='text-link' href='https://www.sephora.com' target='_blank'>
               Sephora
             </a>
             .
           </p>
-          <img src='zgall.jpg' alt='a round table with decor' />
+          <img src='zgall.jpg' alt='a round table with decor' target='_blank'/>
         </div>
         <div className='card'>
           <h2>My Story</h2>
