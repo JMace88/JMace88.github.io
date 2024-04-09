@@ -7,40 +7,35 @@ const AboutMe = () => {
     <>
       <main>
         <div className='card'>
-          <h2>My Career So Far</h2>
+          <h2>My Focus</h2>
           <p>
-            After 15 years in retail management, most recently with{' '}
-            <a href='https://www.zgallerie.com'>Z Gallerie</a>, I'm taking those
-            skills in a new direction.
-            <br /> <br />
-            Learning with Fullstack Academy will provide me the tools to explore
-            a new industry with an emphasis on customer service and design.
+            A passion for design and customer satisfaction honed over 15
+            years in retail management at companies including{' '}
+            <a className='text-link' href='https://www.zgallerie.com'>
+              Z Gallerie
+            </a>{' '}
+            &{' '}
+            <a className='text-link' href='https://www.sephora.com'>
+              Sephora
+            </a>
+            .
           </p>
-          <img
-            src='zgall.jpg'
-            alt='a round table with decor'
-          />
+          <img src='zgall.jpg' alt='a round table with decor' />
         </div>
         <div className='card'>
           <h2>My Story</h2>
           <p>
-            I was born in Oklahoma to a military family. We travelled around for
-            my early childhood before settling in Utah for most of my school
-            years. I moved to Texas my senior year of highschool and have been
-            here since. <br />
-            <br />
-            I live with my partner of 15 years with our two dogs, Yuki & Amy,
+            I live in Dallas, Texas with my partner of 15 years and our two dogs, Amy & Yuki,
             and our cat Ripley. <br />
             <br />
-            We are huge nerds and love all things Sci-Fi & Fantasy.
+            I love nature and animals and have been a fan of Sci-Fi & Fantasty as long as I can remember. 
+            
           </p>
-          <img
-            src='mypups.jpg'
-            alt='Two dogs lying head to head'
-          />
+          <img src='mypups.jpg' alt='Two dogs lying head to head' />
         </div>
         <div className='carousel'>
           <h2>My Nerd Cred</h2>
+          <p className='nerd-cred'>These are some of my favorite pictures from FanExpo Dallas.</p>
           <Gallery />
         </div>
       </main>

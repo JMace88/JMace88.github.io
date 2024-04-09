@@ -1,3 +1,15 @@
+.text-link{
+  color: var(--deepPurp);
+  text-decoration: none;
+  font-weight: 500;
+}
+.text-link:after{
+  color: var(--deepPurp);
+}
+.nerd-cred{
+  margin: 0;
+  padding: 0;
+}
 .slick-slide > div {
   display: grid;
   margin: auto;
