@@ -37,11 +37,11 @@
   margin: auto;
   max-width: fit-content;
 }
-@media (width <= 700px) {
-  .card-about {
+@media (width <= 930px) {
+  .card {
     grid-template-columns: 1fr;
   }
-  .card-about > h2 {
+  .card > h2 {
     grid-column: 1;
   }
   img {
