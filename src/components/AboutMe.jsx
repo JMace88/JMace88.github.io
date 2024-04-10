@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <>
       <main>
-        <div className='card'>
+        <div className='card first-card'>
           <h2>My Focus</h2>
           <p>
             A passion for design and customer satisfaction honed over 15
@@ -35,7 +35,7 @@ const AboutMe = () => {
         </div>
         <div className='carousel'>
           <h2>My Nerd Cred</h2>
-          <p className='nerd-cred'>These are some of my favorite pictures from FanExpo Dallas.</p>
+          <p id='gallery-card' className='nerd-cred'>These are some of my favorite pictures from FanExpo Dallas.</p>
           <Gallery />
         </div>
       </main>

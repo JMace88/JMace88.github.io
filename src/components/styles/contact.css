@@ -2,8 +2,8 @@
   display: grid;
   /* border: 0.025rem solid #301b3f;
   border-radius: 0.75rem; */
-  margin: 1rem;
-  padding: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
   /* background: var(--glass);
   box-shadow: var(--glass-glow); */
   z-index: 0;
@@ -43,24 +43,24 @@ textarea {
   display: flex;
   flex-direction: column;
 }
-@media (width <= 570px) {
+/* @media (width <= 570px) {
   .formbox {
     scale: 80%;
   }
-}
-@media (width <= 500px) {
+} */
+/* @media (width <= 500px) {
   .formbox {
     margin: -2.6rem;
   }
-}
-@media (width <= 400px) {
-  .formbox {
-    margin: none;
-  }
+} */
+@media (width <= 410px) {
   main{
-    place-items: center;
-    /* margin: auto; */
-    margin-left: 5%;
+      width: 95%;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;}
+  .formbox{
+margin-left: 0;
+margin-right: 0;
   }
 }
 
