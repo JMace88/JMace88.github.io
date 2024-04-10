@@ -53,3 +53,14 @@ textarea {
     margin: -2.6rem;
   }
 }
+@media (width <= 400px) {
+  .formbox {
+    margin: none;
+  }
+  main{
+    place-items: center;
+    /* margin: auto; */
+    margin-left: 5%;
+  }
+}
+

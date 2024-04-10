@@ -21,7 +21,10 @@ const ContactMe = () => {
               <br />
               <div className='message-box'>
                 <label for='message'>Your message:</label>
-                <textarea name='message' placeholder='Type your message here . . .'></textarea>
+                <textarea
+                  name='message'
+                  placeholder='Type your message here . . .'
+                ></textarea>
               </div>
               <button className='contact-button' type='submit'>
                 Send it!
