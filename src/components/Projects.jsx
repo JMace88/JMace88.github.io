@@ -13,14 +13,26 @@ function Projects() {
     <div className='slider-container'>
       <Slider {...settings}>
         <div className='photo-div'>
-          <h2 className='project-title'>
-            Little Seed, BIG Garden <br />
-          </h2>
-          <h3>Fullstack Academy Capstone</h3>
+          <h2 className='project-title'>Little Seed, BIG Garden </h2>
           <a
+            className='repo-link'
             href='https://github.com/2401-Group-A/Capstone-EComSite'
             alt='a link to the Little Seed, BIG Garden repo on GitHub'
             title='View the GitHub repo'
+            target='_blank'
+          >
+            <img
+              className='github-logo'
+              src='github-mark-white.png'
+              alt='a screenshot of the final project home page'
+            />
+          </a>
+
+          <h3>Fullstack Academy Capstone</h3>
+          <a
+            // href='https://github.com/2401-Group-A/Capstone-EComSite'
+            alt='a link to the Little Seed, BIG Garden deployed site'
+            // title='View the site'
             target='_blank'
           >
             <img
@@ -42,9 +54,22 @@ function Projects() {
         <div className='photo-div'>
           <h2 className='project-title'>The Tiny Zoo</h2>
           <a
+            className='repo-link'
             href='https://github.com/JMace88/zoo-problem-workshop'
             alt='a link to The Tiny Zoo repo on GitHub'
             title='View the GitHub repo'
+            target='_blank'
+          >
+            <img
+              className='github-logo'
+              src='github-mark-white.png'
+              alt='a screenshot of the final project home page'
+            />
+          </a>
+          <a
+            // href='https://github.com/JMace88/zoo-problem-workshop'
+            // alt='a link to The Tiny Zoo repo on GitHub'
+            // title='View the GitHub repo'
             target='_blank'
           >
             <img
