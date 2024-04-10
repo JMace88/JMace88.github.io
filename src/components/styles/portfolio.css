@@ -1,1 +1,11 @@
-
+.project-title {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.repo-link {
+  width: 1.5rem;
+  display: inline-block;
+}
+img:is(.github-logo) {
+  margin: 0rem;
+}

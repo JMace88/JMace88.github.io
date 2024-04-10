@@ -7,21 +7,26 @@ const ContactMe = () => {
       <main>
         <div className='card-contact'>
           <div className='formbox'>
-            <h1>To contact me please fill out this form.</h1>
+            <h1 className='contact-header'>
+              To contact me please fill out this form.
+            </h1>
             <form action='https://formspree.io/f/xjvnaqwa' method='POST'>
               <div>
-                <label for='name'>Name:</label>
+                <label form='name'>Name:</label>
                 <input type='text' name='name' />
               </div>
               <br />
               <div>
-                <label for='email'>Email:</label>
+                <label form='email'>Email:</label>
                 <input type='email' name='email' />
               </div>
               <br />
               <div className='message-box'>
-                <label for='message'>Your message:</label>
-                <textarea name='message' placeholder='Type your message here . . .'></textarea>
+                <label form='message'>Your message:</label>
+                <textarea
+                  name='message'
+                  placeholder='Type your message here . . .'
+                ></textarea>
               </div>
               <button className='contact-button' type='submit'>
                 Send it!

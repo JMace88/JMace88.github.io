@@ -1,14 +1,9 @@
 .card-contact {
   display: grid;
-  /* border: 0.025rem solid #301b3f;
-  border-radius: 0.75rem; */
-  margin: 1rem;
-  padding: 1rem;
-  /* background: var(--glass);
-  box-shadow: var(--glass-glow); */
+  margin-top: 1rem;
+  padding-top: 1rem;
   z-index: 0;
   place-items: center;
-  /* align-items: stretch; */
 }
 .formbox {
   display: flex;
@@ -21,7 +16,11 @@
   align-items: center;
 }
 form {
-  font-size: 2.2rem;
+  font-size: 1.75rem;
+}
+.contact-header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 input {
   font-family: 'Source Sans 3', sans-serif;
@@ -34,7 +33,7 @@ input {
 textarea {
   font-family: 'Source Sans 3', sans-serif;
   height: 10vh;
-  width: 30vh;
+  width: 40vh;
   border-radius: 0.75rem;
   padding: 0.5rem;
   font-size: 1.25rem;
@@ -43,13 +42,14 @@ textarea {
   display: flex;
   flex-direction: column;
 }
-@media (width <= 570px) {
-  .formbox {
-    scale: 80%;
+@media (width <= 410px) {
+  main {
+    width: 95%;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
   }
-}
-@media (width <= 500px) {
   .formbox {
-    margin: -2.6rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
