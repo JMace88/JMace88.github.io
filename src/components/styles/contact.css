@@ -37,6 +37,7 @@ textarea {
   border-radius: 0.75rem;
   padding: 0.5rem;
   font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 .message-box {
   display: flex;
