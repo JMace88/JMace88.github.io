@@ -26,18 +26,12 @@ header {
   padding: 0.5rem;
   height: 3.25rem;
   width: 3rem;
+  color: var(--taupe);
 }
 .logo-text {
   scale: 90%;
 }
-.logo > a:link {
-  text-decoration: none;
-  color: var(--taupe);
-}
-.logo > a:visited {
-  color: var(--taupe);
-}
-nav{
+nav {
   display: flex;
 }
 .nav-link {
@@ -47,12 +41,11 @@ nav{
   width: fit-content;
   height: fit-content;
   margin-right: 1rem;
-
 }
 
 @media (width <= 590px) {
-  .nav-link{
-    margin-right: .25rem;
+  .nav-link {
+    margin-right: 0.25rem;
   }
 }
 @media (width <= 541px) {
@@ -60,12 +53,12 @@ nav{
     display: flex;
     flex-direction: column;
   }
-  header{
-    height: var(--headheight )+ 2rem;
+  header {
+    height: var(--headheight) + 2rem;
     width: 96%;
   }
-  .link-cluster{
-    margin-bottom: .25rem;
-    margin-right: .25rem;
+  .link-cluster {
+    margin-bottom: 0.25rem;
+    margin-right: 0.25rem;
   }
 }

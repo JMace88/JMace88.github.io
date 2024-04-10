@@ -20,7 +20,7 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <h1 className='yuki'>Josh</h1>
+            <h1 className='yuki'>Josh Mace</h1>
             <h1 className='yuki'>& Yuki!</h1>
           </div>
         </div>
