@@ -23,7 +23,7 @@ const AboutMe = () => {
           <img src='zgall.jpg' alt='a round table with decor' target='_blank'/>
         </div>
         <div className='card'>
-          <h2>My Story</h2>
+          <h2>My Loves</h2>
           <p>
             I live in Dallas, Texas with my partner of 15 years and our two dogs, Amy & Yuki,
             and our cat Ripley. <br />
