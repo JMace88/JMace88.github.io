@@ -1,5 +1,4 @@
 header {
-  border: var(--borderWidth) solid var(--almostBlackTransparent);
   border-bottom-left-radius: var(--standardRadius);
   border-bottom-right-radius: var(--standardRadius);
   border-top: none;
@@ -7,12 +6,11 @@ header {
   justify-content: space-between;
   place-items: center;
   height: var(--headheight);
-  width: 99%;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 1;
   background: var(--glassInvert);
-  /* box-shadow: var(--glass-glow); */
 }
 .logo {
   display: flex;
@@ -55,7 +53,6 @@ nav {
   }
   header {
     height: var(--headheight) + 2rem;
-    width: 96%;
   }
   .link-cluster {
     margin-bottom: 0.25rem;
