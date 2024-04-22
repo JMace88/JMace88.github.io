@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './styles/navbar.css';
 
 const NavBar = () => {
+  
   return (
     <header>
       <div>
@@ -10,24 +11,30 @@ const NavBar = () => {
       </div>
       <nav>
         <div className='link-cluster'>
-          <Link className='nav-link' to='/'>
+          <NavLink className='nav-link' to='/'>
             <button className='nav-button'>Home</button>
-          </Link>
-          <Link className='nav-link' to='/about'>
+          </NavLink>
+          <NavLink className='nav-link' to='/about'>
             <button className='nav-button'>About Me</button>
-          </Link>
+          </NavLink>
         </div>
         <div className='link-cluster'>
-          <Link className='nav-link' to='/portfolio'>
+          <NavLink className='nav-link' to='/portfolio'>
             <button className='nav-button'>Portfolio</button>
-          </Link>
-          <Link className='nav-link' to='/contact'>
+          </NavLink>
+          <NavLink className='nav-link' to='/contact'>
             <button className='nav-button'>Contact Me</button>
-          </Link>
+          </NavLink>
         </div>
       </nav>
     </header>
   );
+};
+
+const isActive = (match, location) => {
+  if (!match || !location) return false;
+  const { pathname } = location;
+  return pathname === match.pathname || pathname.startsWith(match.pathname);
 };
 
 export default NavBar;
