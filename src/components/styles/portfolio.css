@@ -9,3 +9,11 @@
 img:is(.github-logo) {
   margin: 0rem;
 }
+.slick-arrow{
+  scale: 160%;
+}
+@media (width <= 550){
+  .slick-arrow{
+    scale: 120%;
+  }
+}
